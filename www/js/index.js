@@ -10,17 +10,15 @@ var key = "phone"; */
     function onLoad() {
         // Event listener for device ready or not
         document.addEventListener("deviceready", onDeviceReady, false);
-		console.log("device ready");
-        var key = "pen";
-        var value = "blue"; 
-        window.localStorage.setItem("key", "value");
+		console.log("device ready"); 
+        window.localStorage.setItem("pen", "blue");
         window.localStorage.setItem("phone", "shit");
         window.localStorage.setItem("keys", "silver");
         window.localStorage.setItem("wallet", "black");
         window.localStorage.setItem("USB", "red");
        
-        var calling = window.localStorage.getItem("key");
-        window.alert("calling");
+        var calling = window.localStorage.getItem("pen");
+        window.alert(calling);
     }
 	
 	function updateDisplay() {
