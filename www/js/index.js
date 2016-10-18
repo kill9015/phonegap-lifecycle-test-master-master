@@ -12,12 +12,12 @@ var key = "phone"; */
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready"); 
         window.localStorage.setItem("pen", "blue");
-        window.localStorage.setItem("phone", "shit");
+        window.localStorage.setItem("phone", "brown");
         window.localStorage.setItem("keys", "silver");
         window.localStorage.setItem("wallet", "black");
         window.localStorage.setItem("USB", "red");
        
-        var calling = window.localStorage.getItem("pen");
+        var calling = window.localStorage.getItem("pen", "phone", "keys", "wallet", "USB");
         window.alert(calling);
     }
 	
