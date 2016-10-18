@@ -13,13 +13,13 @@ var key = "phone"; */
 		console.log("device ready");
         var key = "pen";
         var value = "blue"; 
-        windows.localStorage.setItem("key", "value");
-        windows.localStorage.setItem("phone", "shit");
-        windows.localStorage.setItem("keys", "silver");
-        windows.localStorage.setItem("wallet", "black");
-        windows.localStorage.setItem("USB", "red");
+        window.localStorage.setItem("key", "value");
+        window.localStorage.setItem("phone", "shit");
+        window.localStorage.setItem("keys", "silver");
+        window.localStorage.setItem("wallet", "black");
+        window.localStorage.setItem("USB", "red");
        
-        var calling = windows.localStorage.getItem("key");
+        var calling = window.localStorage.getItem("key");
         window.alert("calling");
     }
 	
