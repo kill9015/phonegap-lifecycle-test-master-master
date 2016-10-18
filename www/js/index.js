@@ -12,15 +12,15 @@ var key = "phone"; */
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready");
         var key = "pen";
-        var value = "blue";
+        var value = "blue"; 
         windows.localStorage.setItem("key", "value");
         windows.localStorage.setItem("phone", "shit");
         windows.localStorage.setItem("keys", "silver");
         windows.localStorage.setItem("wallet", "black");
         windows.localStorage.setItem("USB", "red");
        
-        var value = windows.localStorage.getItem("key");
-        window.alert("value");
+        var calling = windows.localStorage.getItem("key");
+        window.alert("calling");
     }
 	
 	function updateDisplay() {
