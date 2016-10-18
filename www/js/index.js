@@ -65,9 +65,8 @@ var key = "phone"; */
 		resumed_count++;
 		updateDisplay();
     }
-    var choclate = {   
-        "anoreo": "Dairy Milk with Oreo"
-        "calories": "84"
-        "sugar": "7.3g"
-        console.log(choclate.anoreo + "has" + choclate.calories);
-    }
+{choclate = [ 
+        {"anoreo": "Dairy Milk with Oreo"}
+       {"calories": "84"}
+    console.log( choclate.anoreo + "has" + choclate.calories);
+    ]}
