@@ -18,7 +18,7 @@ var key = "phone"; */
         windows.localStorage.setItem("USB", "red");
        
         var value = windows.localStorage.getItem("pen");
-        alert("pen");
+        alert("value");
     }
 	
 	function updateDisplay() {
