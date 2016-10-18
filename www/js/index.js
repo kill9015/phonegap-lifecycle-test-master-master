@@ -11,13 +11,15 @@ var key = "phone"; */
         // Event listener for device ready or not
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready");
-        windows.localStorage.setItem("pen", "blue");
+        var key = "pen";
+        var value = "blue";
+        windows.localStorage.setItem("key", "value");
         windows.localStorage.setItem("phone", "shit");
         windows.localStorage.setItem("keys", "silver");
         windows.localStorage.setItem("wallet", "black");
         windows.localStorage.setItem("USB", "red");
        
-        var value = windows.localStorage.getItem("pen");
+        var value = windows.localStorage.getItem("key");
         alert("value");
     }
 	
