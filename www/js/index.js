@@ -28,11 +28,11 @@ var key = "phone"; */
         window.alert(calling4);
         window.alert(calling5);
         
-      /*  {choclate = [ 
+        {var choclate = [ 
         {"anoreo": "Dairy Milk with Oreo"}
        {"calories": "84"}
     console.log( choclate.anoreo + "has" + choclate.calories);
-    ]} */
+    ]} 
     }
 	
 	function updateDisplay() {
