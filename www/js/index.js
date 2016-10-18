@@ -27,6 +27,8 @@ var key = "phone"; */
         window.alert(calling3);
         window.alert(calling4);
         window.alert(calling5);
+        
+        
     }
 	
 	function updateDisplay() {
@@ -62,4 +64,10 @@ var key = "phone"; */
 		alert("resume");
 		resumed_count++;
 		updateDisplay();
+    }
+    var choclate = {   
+        "anoreo": "Dairy Milk with Oreo"
+        "calories": "84"
+        "sugar": "7.3g"
+        console.log(choclate.anoreo + "has" + choclate.calories);
     }
