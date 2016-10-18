@@ -2,11 +2,23 @@
 var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
+/*var key = "keys";
+var value = "silver";
+var key = "phone"; */
+ 
 
     function onLoad() {
         // Event listener for device ready or not
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready");
+        windows.localStorage.setItem("pen", "blue");
+        windows.localStorage.setItem("phone", "shit");
+        windows.localStorage.setItem("keys", "silver");
+        windows.localStorage.setItem("wallet", "black");
+        windows.localStorage.setItem("USB", "red");
+       
+        var value = windows.localStorage.getItem("pen");
+        alert("pen");
     }
 	
 	function updateDisplay() {
