@@ -28,7 +28,11 @@ var key = "phone"; */
         window.alert(calling4);
         window.alert(calling5);
         
-        
+        {choclate = [ 
+        {"anoreo": "Dairy Milk with Oreo"}
+       {"calories": "84"}
+    console.log( choclate.anoreo + "has" + choclate.calories);
+    ]}
     }
 	
 	function updateDisplay() {
@@ -65,8 +69,3 @@ var key = "phone"; */
 		resumed_count++;
 		updateDisplay();
     }
-{choclate = [ 
-        {"anoreo": "Dairy Milk with Oreo"}
-       {"calories": "84"}
-    console.log( choclate.anoreo + "has" + choclate.calories);
-    ]}
